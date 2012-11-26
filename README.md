@@ -1,0 +1,4 @@
+ubuntu
+======
+
+Ubuntu configuration
