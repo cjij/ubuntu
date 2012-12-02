@@ -1,4 +1,4 @@
 ubuntu
 ======
 
-Ubuntu configuration
+Ubuntu post-install & configuration 
