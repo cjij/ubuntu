@@ -3,8 +3,9 @@
 sudo apt-get update
 sudo apt-get dist-upgrade -y
 
-sudo apt-get install -y openssh-server apache2 php5 git gnome-shell vim vim-common vim-gtk git bison flex wine vlc terminator subdownloader \
-  acidrip ubuntu-restricted-extras code-blocks
+sudo apt-get install -y openssh-server apache2 php5 git gnome-shell \
+  vim vim-common vim-gtk git bison flex wine vlc terminator subdownloader \
+  acidrip ubuntu-restricted-extras codeblocks rake
 
 sudo /usr/share/doc/libdvdread4/install-css.sh
 
