@@ -6,7 +6,7 @@ sudo apt-get dist-upgrade -y
 sudo apt-get install -y openssh-server apache2 php5 git gnome-shell \
   vim vim-common vim-gtk git bison flex wine vlc terminator subdownloader \
   acidrip ubuntu-restricted-extras codeblocks rake default-jre g++ virtualbox \
-  nmap wireshark aircrack-ng
+  nmap wireshark aircrack-ng ettercap* macchanger
 
 sudo /usr/share/doc/libdvdread4/install-css.sh
 
@@ -21,3 +21,4 @@ cd ~/.yadr && rake install
 cd
 
 git config --global credential.helper cache
+git config credential.helper 'cache --timeout=3600'
