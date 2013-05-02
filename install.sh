@@ -19,3 +19,5 @@ cd
 git clone https://github.com/skwp/dotfiles ~/.yadr
 cd ~/.yadr && rake install
 cd
+
+git config --global credential.helper cache
