@@ -5,7 +5,8 @@ sudo apt-get dist-upgrade -y
 
 sudo apt-get install -y openssh-server apache2 php5 git gnome-shell \
   vim vim-common vim-gtk git bison flex wine vlc terminator subdownloader \
-  acidrip ubuntu-restricted-extras codeblocks rake
+  acidrip ubuntu-restricted-extras codeblocks rake default-jre g++ virtualbox \
+  nmap wireshark aircrack-ng
 
 sudo /usr/share/doc/libdvdread4/install-css.sh
 
