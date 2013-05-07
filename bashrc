@@ -1,6 +1,4 @@
-function mkcd{
-mkdir $1
-cd $1
-}
-
+mkcd() { mkdir -p "$@" && cd $_; }
 alias upd="sudo apt-get update && sudo apt-get dist-upgrade"
+alias gg="g++ -O2 -std=gnu++11"
+alias ggg="git add -A && git commit && git push"
