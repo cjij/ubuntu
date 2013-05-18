@@ -21,7 +21,7 @@ git clone https://github.com/skwp/dotfiles ~/.yadr
 cd ~/.yadr && rake install
 cd
 
-sudo echo "allow-guest=false" >> /etc/lightdm/lightdm.conf
+sudo /usr/lib/lightdm/lightdm-set-defaults -l false
 
 git config --global credential.helper cache
 git config credential.helper 'cache --timeout=3600'
