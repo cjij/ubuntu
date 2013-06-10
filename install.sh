@@ -16,7 +16,6 @@ gsettings set org.gnome.shell.overrides button-layout minimize,maximize,close:
 sudo update-rc.d apache2 disable
 sudo touch /etc/ssh/sshd_not_to_be_run
 
-cd
 git clone https://github.com/skwp/dotfiles ~/.yadr
 cd ~/.yadr && rake install
 cd
