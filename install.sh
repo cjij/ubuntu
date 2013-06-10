@@ -7,7 +7,7 @@ sudo apt-get install -y openssh-server apache2 php5 git gnome-shell \
   vim vim-common vim-gtk git bison flex wine vlc terminator subdownloader \
   acidrip ubuntu-restricted-extras codeblocks rake default-jre g++ virtualbox \
   nmap wireshark aircrack-ng ettercap-graphical macchanger chromium-browser \
-  privoxy zsh
+  privoxy zsh build-essential linux-headers-generic
 
 sudo /usr/share/doc/libdvdread4/install-css.sh
 
