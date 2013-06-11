@@ -18,9 +18,17 @@ sudo touch /etc/ssh/sshd_not_to_be_run
 
 git clone https://github.com/skwp/dotfiles ~/.yadr
 cd ~/.yadr && rake install
-cd
 
 sudo /usr/lib/lightdm/lightdm-set-defaults -l false
 
 git config --global credential.helper cache
 git config credential.helper 'cache --timeout=3600'
+
+cd && mkdir git && git clone https://github.com/vlad-sensei/ubuntu.git
+cd ubuntu
+
+sudo cp chmac.sh /etc/init.d/chmac
+sudo update-rc.d chmac defaults 10
+
+cat vimrc >> ~/.vimrc
+cat zshrc >> ~/.zshrc
