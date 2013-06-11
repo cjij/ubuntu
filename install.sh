@@ -24,7 +24,8 @@ sudo /usr/lib/lightdm/lightdm-set-defaults -l false
 git config --global credential.helper cache
 git config credential.helper 'cache --timeout=3600'
 
-cd && mkdir git && git clone https://github.com/vlad-sensei/ubuntu.git
+cd && mkdir git && cd git
+git clone https://github.com/vlad-sensei/ubuntu.git
 cd ubuntu
 
 sudo cp chmac.sh /etc/init.d/chmac
