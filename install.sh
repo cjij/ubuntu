@@ -32,5 +32,5 @@ cd ubuntu
 sudo cp chmac.sh /etc/init.d/chmac
 sudo update-rc.d chmac defaults 10
 
-cat vimrc >> ~/.vimrc
+cat vimrc >> ~/.vimrc.after
 cat zshrc >> ~/.zshrc
