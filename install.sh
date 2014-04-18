@@ -23,6 +23,7 @@ cd ~/.yadr && rake install
 sudo /usr/lib/lightdm/lightdm-set-defaults -l false
 
 git config --global credential.helper cache
+mkdir ~/.git
 git config credential.helper 'cache --timeout=3600'
 
 cd && mkdir git && cd git
