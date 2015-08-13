@@ -5,7 +5,7 @@ sudo apt-get dist-upgrade -y
 
 sudo apt-get install -y openssh-server php5 git gnome-shell \
   vim-gtk git wine vlc terminator subdownloader qtcreator \
-  acidrip ubuntu-restricted-extras rake default-jre g++ \
+  ubuntu-restricted-extras rake default-jre g++ \
   nmap wireshark aircrack-ng ettercap-graphical macchanger chromium-browser \
   privoxy zsh build-essential linux-headers-generic libpam-fprintd openjdk-7-jdk \
   gnome-system-tools gimp nautilus-compare
