@@ -3,12 +3,12 @@
 sudo apt-get update
 sudo apt-get dist-upgrade -y
 
-sudo apt-get install -y openssh-server apache2 php5 git gnome-shell \
+sudo apt-get install -y openssh-server php5 git gnome-shell \
   vim-gtk git wine vlc terminator subdownloader qtcreator \
-  acidrip ubuntu-restricted-extras codeblocks rake default-jre g++ \
+  acidrip ubuntu-restricted-extras rake default-jre g++ \
   nmap wireshark aircrack-ng ettercap-graphical macchanger chromium-browser \
   privoxy zsh build-essential linux-headers-generic libpam-fprintd openjdk-7-jdk \
-  gnome-system-tools icedtea-7-plugin gimp nautilus-compare
+  gnome-system-tools gimp nautilus-compare
 
 sudo /usr/share/doc/libdvdread4/install-css.sh
 
