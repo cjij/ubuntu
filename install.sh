@@ -20,7 +20,7 @@ sudo touch /etc/ssh/sshd_not_to_be_run
 git clone https://github.com/skwp/dotfiles ~/.yadr
 cd ~/.yadr && rake install
 
-sudo /usr/lib/lightdm/lightdm-set-defaults -l false
+
 
 git config --global credential.helper cache
 mkdir ~/.git
